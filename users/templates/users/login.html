@@ -1,0 +1,20 @@
+{% extends "blogs/base.html" %}
+
+{% block body %}
+<form method="POST">
+
+    {% csrf_token %}
+    {{ form.as_p}}
+   <button class="submit">submit</button>
+</form>
+<div class="border-top pt-3">
+    <small class="text-muted">
+        i have no account then <a class="ml-2" href="{% url 'register' %}">Register</a>
+    </small>
+    
+</div>
+<small class="text-muted">
+    <a class="ml-2" href="{% url 'password-reset' %}">forgot password?</a>
+</small>
+
+{% endblock %}
