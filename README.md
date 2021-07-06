@@ -2,7 +2,7 @@
 This is the fullstack devlopment  of BlogApp web-app using django.
 
 to run the app
-`` https://myblogappssss.herokuapp.com/ ``
+[Blogapp](https://myblogappssss.herokuapp.com/)
 
 To run this web-app, execute the following steps :
 1. clone the repo or run  ``https://github.com/harshprakash/OnlineBookStore.git``
