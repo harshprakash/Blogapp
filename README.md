@@ -1,4 +1,4 @@
-# OnlineBookStore
+# Blogapp
 This is the fullstack devlopment  of BlogApp web-app using django.
 
 to run the app
